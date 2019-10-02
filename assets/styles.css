@@ -81,23 +81,19 @@ ul {
 }
 
 .menu {
-  margin: 32px auto auto 0;
+  margin-top: 32px;
 }
 
 .icons {
   height: 24px;
   opacity: 1;
   transition: opacity 0.4s;
-  cursor: pointer;
+    margin: 12px auto;
 }
 
 .socialIcons {
   bottom: 0;
   position: absolute;
-}
-
-.socialIcons > * {
-  margin: 12px auto;
 }
 
 .at {
