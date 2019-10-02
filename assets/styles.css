@@ -126,26 +126,6 @@ ul {
   /* color: rgba(255, 255, 255, 0.25) */
 }
 
-.title {
-  display: inline-block;
-  top: 5vh;
-  left: 12vw;
-  font-size: 1.8em;
-  font-family: 'Gotham';
-  font-weight: 400;
-}
-
-.title > a {
-  opacity: 1;
-  transition: 1s;
-  text-transform: none;
-}
-
-.title > a:hover {
-  opacity: 0.5;
-  transition: 0.5s;
-}
-
 .contact {
   /* display: inline-block; */
   right: 12vw;
@@ -167,7 +147,7 @@ ul {
 
 
 .info {
-  top: 40vh;
+  top: 24vh;
   left: 12vw;
   margin-left: auto;
   display: block;
