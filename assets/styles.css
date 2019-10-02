@@ -19,7 +19,7 @@ a {
 
 h1 {
   display: block;
-  font-size: 2.8em;
+  font-size: 2.2em;
   font-weight: 300;
   line-height: 2.4em;
   color: #fff;
@@ -68,6 +68,45 @@ ul {
   position: fixed;
   left: 0;
   z-index: 100;
+}
+
+
+.logo {
+  color: #191919;
+  height: 196px;
+  margin: 32px auto 0 auto;
+  opacity: 1;
+  transition: opacity 0.4s;
+  cursor: pointer;
+}
+
+.menu {
+  margin: 32px auto auto 0;
+}
+
+.icons {
+  height: 24px;
+  opacity: 1;
+  transition: opacity 0.4s;
+  cursor: pointer;
+}
+
+.socialIcons {
+  bottom: 0;
+  position: absolute;
+}
+
+.socialIcons > * {
+  margin: 12px auto;
+}
+
+.at {
+  margin-bottom: 32px;
+}
+
+.icons:hover, .logo:hover{
+  opacity: 0.5;
+  transition: opacity 0.3s;
 }
 
 .hero {
