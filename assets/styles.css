@@ -81,14 +81,15 @@ ul {
 }
 
 .menu {
-  margin-top: 32px;
+  margin-top: 32px !important;
+  cursor: pointer;
 }
 
 .icons {
   height: 24px;
   opacity: 1;
   transition: opacity 0.4s;
-    margin: 12px auto;
+  margin: 12px auto;
 }
 
 .socialIcons {
