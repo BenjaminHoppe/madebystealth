@@ -61,6 +61,15 @@ ul {
   visibility: hidden;
 }
 
+.navbar {
+  width: 64px;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  z-index: 100;
+}
+
 .hero {
   margin: 0;
   width: 100vw;
@@ -388,7 +397,7 @@ button:hover {
 
 footer {
   background-color: #1B1C1C;
-  width: 100%;
+  /* width: 100%; */
   height: 80px;
   padding-top: 75px;
   position: relative;
