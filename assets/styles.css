@@ -26,10 +26,7 @@ h1 {
 }
 
 h2 {
-  /* margin: 0 0 25px 0; */
-  font-size: 1.6em;
-  /* text-align: center; */
-  line-height: 1em;
+  font-size: 1.8em;
 }
 
 h3 {
@@ -157,20 +154,53 @@ ul {
 /* About */
 
 .about {
-  background-color: #000;
+  background-color: #191919;
   height: 102vh;
   width: 100vw;
   color: #fff;
 }
 
+
 .about > h2 {
-  top: 120px;
+  top: 18vh;
   left: 12vw;
-  display: inline-block;
   position: relative;
   color: #fff;
   font-weight: 400;
+  display: inline-block;
 }
+
+
+.about_content {
+  left: 12vw;
+  position: relative;
+  top: 28vh;
+  width: 700px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 180%;
+}
+
+.about_cta {
+  left: 12vw;
+  position: relative;
+  display: inline-block;
+  top: 36vh;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.about_cta > a {
+  color: #b2b2b2;
+  transition: color 0.4s;
+}
+
+.about_cta > a:hover {
+  color: inherit;
+  transition: color 0.4s;
+}
+
+
 
 /* Capabilities */
 
