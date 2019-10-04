@@ -21,7 +21,6 @@ h1 {
   display: block;
   font-size: 2.2em;
   font-weight: 300;
-  line-height: 2.4em;
   color: #fff;
   text-align: center;
 }
@@ -111,14 +110,6 @@ ul {
   width: 100vw;
   height: 100vh;
   background-color: #191919;
-  /* background-image: url("img/hero2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative; */
 }
 
 .hero > * {
@@ -130,7 +121,7 @@ ul {
 .contact {
   /* display: inline-block; */
   right: 12vw;
-  top: 6.5vh;
+  top: 16.5vh;
   border: 2px solid #fff;
   padding: 10px 20px;
   letter-spacing: 2px;
@@ -148,7 +139,7 @@ ul {
 
 
 .info {
-  top: 24vh;
+  top: 16vh;
   left: 12vw;
   margin-left: auto;
   display: block;
