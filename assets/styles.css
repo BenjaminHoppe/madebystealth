@@ -109,7 +109,6 @@ ul {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  /* background-color: #191919; */
 }
 
 .hero > * {
@@ -157,28 +156,31 @@ ul {
   color: #fff;
 }
 
-/* About */
+/* Capabilities */
 
-.services {
-  text-align: center;
+.capabilities {
   line-height: 1em;
   font-weight: 500;
-  height: 100vh;
+  height: 102vh;
   background-color: #191919;
 }
 
-.services > h2 {
-  margin-top: 120px;
+.capabilities > h2 {
+  top: 120px;
+  position: relative;
+  color: #fff;
   font-weight: 400;
 }
 
-.services > p {
+.capabilities > p {
   color: gray;
+  top: 140px;
+  position: relative;
   margin-bottom: 100px;
   font-size: 1em;
 }
 
-.services > h3 {
+.capabilities > h3 {
   font-weight: 500;
 }
 
@@ -224,7 +226,7 @@ ul {
 
 .services_footer {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
 }
 
 .services_footer > a {
@@ -479,11 +481,11 @@ li > a > img:hover {
     font-size: 1.1em;
   }
 
-  .services {
+  .capabilities {
     margin: 80px auto 0 auto;
   }
 
-  .services > p {
+  .capabilities > p {
     padding: 0px 30px;
     line-height: 1.8;
     margin-bottom: 50px;
