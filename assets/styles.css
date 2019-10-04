@@ -2,7 +2,15 @@
     font-family: 'Gotham';
     src: url('Gotham-Light.woff2') format('woff2'),
         url('Gotham-Light.woff') format('woff');
-    font-weight: 300, 400;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('Gotham-Book.woff2') format('woff2'),
+        url('Gotham-Book.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -155,27 +163,25 @@ ul {
 
 .about {
   background-color: #191919;
-  height: 102vh;
+  height: 90vh;
   width: 100vw;
   color: #fff;
 }
-
 
 .about > h2 {
   top: 18vh;
   left: 12vw;
   position: relative;
   color: #fff;
-  font-weight: 400;
   display: inline-block;
 }
-
 
 .about_content {
   left: 12vw;
   position: relative;
   top: 28vh;
   width: 700px;
+  font-family: 'Gotham';
   font-weight: 300;
   font-size: 18px;
   line-height: 180%;
@@ -186,12 +192,13 @@ ul {
   position: relative;
   display: inline-block;
   top: 36vh;
-  font-weight: 400;
   font-size: 18px;
 }
 
 .about_cta > a {
   color: #b2b2b2;
+  font-family: 'Gotham Book';
+  font-weight: normal;
   transition: color 0.4s;
 }
 
@@ -215,7 +222,7 @@ ul {
   top: 120px;
   position: relative;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .capabilities > p {
