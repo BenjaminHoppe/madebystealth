@@ -26,11 +26,9 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 25px 0;
+  /* margin: 0 0 25px 0; */
   font-size: 1.6em;
-  font-weight: 200;
-  letter-spacing: 1px;
-  text-align: center;
+  /* text-align: center; */
   line-height: 1em;
 }
 
@@ -154,6 +152,24 @@ ul {
   line-height: 1.8em;
   font-weight: 300;
   color: #fff;
+}
+
+/* About */
+
+.about {
+  background-color: #000;
+  height: 102vh;
+  width: 100vw;
+  color: #fff;
+}
+
+.about > h2 {
+  top: 120px;
+  left: 12vw;
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 400;
 }
 
 /* Capabilities */
