@@ -201,12 +201,15 @@
 
         renderer.domElement.style.position = 'absolute';
         renderer.domElement.style.top = '0px';
+        renderer.setClearColor('#191919');
+        renderer.domElement.style.zIndex = -1
+
 
 
         // renderer.domElement.style.position = 'absolute';
         // renderer.domElement.style.top = '0px';
         // renderer.domElement.style.height = '900px';
-        renderer.domElement.style.zIndex = -1;
+        // renderer.domElement.style.zIndex = -1;
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth, window.innerHeight );
 				container.appendChild( renderer.domElement );
@@ -251,8 +254,21 @@
 				//stats.update();
 			}
 			function render() {
-				camera.position.x += ( mouseX - camera.position.x ) * .05;
-				camera.position.y += ( - mouseY - camera.position.y ) * .05;
+
+        // commenting out locks camera scorll
+
+				// camera.position.x += ( mouseX - camera.position.x ) * .05;
+				// camera.position.y += ( - mouseY - camera.position.y ) * .05;
+        // camera.position.set(0,200,400);
+
+        // This one is good, just want it more head on
+        camera.position.set(500,200,500);
+
+        // Head on, too "high"
+        // camera.position.set(0,0,0);
+
+        camera.lookAt( scene.position );
+
 				camera.lookAt( scene.position );
 				var positions = particles.geometry.attributes.position.array;
 				var scales = particles.geometry.attributes.scale.array;
