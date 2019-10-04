@@ -185,7 +185,7 @@ ul {
 
 .about {
   background-color: #191919;
-  height: 105vh;
+  height: 102vh;
   width: 100vw;
   color: #fff;
 }
@@ -239,7 +239,7 @@ ul {
   line-height: 1em;
   font-weight: 500;
   height: 102vh;
-  background-color: #191919;
+  background-color: #ffffff;
 }
 
 .capabilities > h2 {
