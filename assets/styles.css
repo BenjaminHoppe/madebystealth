@@ -137,7 +137,6 @@ ul {
   transition: 0.5s;
 }
 
-
 .info {
   top: 16vh;
   left: 12vw;
@@ -150,7 +149,6 @@ ul {
   font-weight: 400;
 }
 
-
 .bio {
   display: block;
   font-size: 1.3em;
@@ -159,14 +157,18 @@ ul {
   color: #fff;
 }
 
+/* About */
+
 .services {
   text-align: center;
-  margin: 120px auto 0 auto;
   line-height: 1em;
   font-weight: 500;
+  height: 100vh;
+  background-color: #191919;
 }
 
 .services > h2 {
+  margin-top: 120px;
   font-weight: 400;
 }
 
@@ -218,6 +220,11 @@ ul {
 .contact-us:hover {
   color: gray;
   transition: 0.5s;
+}
+
+.services_footer {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .services_footer > a {
