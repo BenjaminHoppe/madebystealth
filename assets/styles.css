@@ -43,23 +43,13 @@ a {
   color: #fff;
 }
 
-h1 {
-  display: block;
-  font-size: 2.2em;
-  font-weight: 300;
-  color: #fff;
-  text-align: center;
-}
-
 h2 {
   font-size: 1.8em;
 }
 
 h3 {
   margin: 0 auto;
-  text-align: center;
   font-size: 1.2em;
-  font-weight: 300;
 }
 
 img {
@@ -86,7 +76,9 @@ ul {
 /* ------------------------------------------------------- */
 
 .navbar {
-  width: 64px;
+  /* width: 64px; */
+  /* See how this looks like on a bigger screen */
+  width: 4.444vw;
   height: 100vh;
   background-color: #ffffff;
   position: fixed;
@@ -143,41 +135,51 @@ ul {
   position: absolute;
 }
 
-.contact {
-  /* display: inline-block; */
-  right: 12vw;
-  top: 16.5vh;
-  border: 2px solid #fff;
-  padding: 10px 20px;
-  letter-spacing: 2px;
-  font-size: 1em;
-  font-weight: 700;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 1s;
-}
-
-.contact:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-  transition: 0.5s;
-}
-
 .info {
-  top: 16vh;
+  top: 12vh;
   left: 12vw;
   margin-left: auto;
   display: block;
+  font-weight: 300;
 }
 
-.info > h1, .info > h3 {
+.info > * {
   text-align: left;
+  font-weight: 300;
+  color: #ffffff;
 }
 
 .bio {
   display: block;
   font-size: 1.3em;
   line-height: 1.8em;
+  margin-top: 16px;
+}
+
+h1 {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 300;
   color: #fff;
+}
+
+.contact {
+  /* display: inline-block; */
+  right: 12vw;
+  top: 12.5vh;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  font-size: 1em;
+  font-weight: 300;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.contact:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: background-color 0.5s;
 }
 
 /* ------------------------------------------------------- */
