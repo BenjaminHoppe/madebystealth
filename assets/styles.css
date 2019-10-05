@@ -171,7 +171,8 @@ h1 {
   padding: 10px 20px;
   letter-spacing: 2px;
   font-size: 1em;
-  font-weight: 300;
+  font-family: 'Gotham Book';
+  font-weight: normal;
   border-radius: 3px;
   cursor: pointer;
   transition: background-color 0.5s;
