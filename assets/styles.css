@@ -76,9 +76,9 @@ ul {
 /* ------------------------------------------------------- */
 
 .navbar {
-  /* width: 64px; */
+  width: 64px;
   /* See how this looks like on a bigger screen */
-  width: 4.444vw;
+  /* width: 4.444vw; */
   height: 100vh;
   background-color: #ffffff;
   position: fixed;
