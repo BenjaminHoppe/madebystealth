@@ -38,6 +38,16 @@
   /* scroll-behavior: smooth; */
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: #8e8e8e;
+  background: none;
+}
+
+::selection {
+  color: #8e8e8e;
+  background: none;
+}
+
 a {
   text-decoration: none;
   color: #fff;
